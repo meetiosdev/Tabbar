@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		4A3CE13F2A987EF000F147DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3CE13E2A987EF000F147DA /* AppDelegate.swift */; };
 		4A3CE1412A987EF000F147DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3CE1402A987EF000F147DA /* SceneDelegate.swift */; };
-		4A3CE1432A987EF000F147DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3CE1422A987EF000F147DA /* ViewController.swift */; };
+		4A3CE1432A987EF000F147DA /* ControllerA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3CE1422A987EF000F147DA /* ControllerA.swift */; };
 		4A3CE1462A987EF000F147DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A3CE1442A987EF000F147DA /* Main.storyboard */; };
 		4A3CE1482A987EF100F147DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A3CE1472A987EF100F147DA /* Assets.xcassets */; };
 		4A3CE14B2A987EF100F147DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A3CE1492A987EF100F147DA /* LaunchScreen.storyboard */; };
+		4A3CE1532A987F6F00F147DA /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3CE1522A987F6F00F147DA /* TabBarController.swift */; };
+		4A3CE1552A987FB100F147DA /* ControllerB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3CE1542A987FB100F147DA /* ControllerB.swift */; };
+		4A3CE1572A987FBE00F147DA /* ControllerC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3CE1562A987FBE00F147DA /* ControllerC.swift */; };
+		4A3CE1592A98861D00F147DA /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A3CE1582A98861D00F147DA /* Nunito-Bold.ttf */; };
+		4A3CE15B2A988C3100F147DA /* IndicatingTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3CE15A2A988C3100F147DA /* IndicatingTabBarController.swift */; };
+		4A3CE15D2A98960B00F147DA /* ControllerD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3CE15C2A98960B00F147DA /* ControllerD.swift */; };
+		4A3CE15F2A98961800F147DA /* ControllerE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3CE15E2A98961800F147DA /* ControllerE.swift */; };
+		4A3CE1612A98998B00F147DA /* Orbitron-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A3CE1602A98998B00F147DA /* Orbitron-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4A3CE13B2A987EF000F147DA /* Tabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tabbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A3CE13E2A987EF000F147DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A3CE1402A987EF000F147DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4A3CE1422A987EF000F147DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4A3CE1422A987EF000F147DA /* ControllerA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerA.swift; sourceTree = "<group>"; };
 		4A3CE1452A987EF000F147DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4A3CE1472A987EF100F147DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A3CE14A2A987EF100F147DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A3CE14C2A987EF100F147DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A3CE1522A987F6F00F147DA /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		4A3CE1542A987FB100F147DA /* ControllerB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerB.swift; sourceTree = "<group>"; };
+		4A3CE1562A987FBE00F147DA /* ControllerC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerC.swift; sourceTree = "<group>"; };
+		4A3CE1582A98861D00F147DA /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		4A3CE15A2A988C3100F147DA /* IndicatingTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatingTabBarController.swift; sourceTree = "<group>"; };
+		4A3CE15C2A98960B00F147DA /* ControllerD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerD.swift; sourceTree = "<group>"; };
+		4A3CE15E2A98961800F147DA /* ControllerE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerE.swift; sourceTree = "<group>"; };
+		4A3CE1602A98998B00F147DA /* Orbitron-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Orbitron-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +73,16 @@
 			isa = PBXGroup;
 			children = (
 				4A3CE13E2A987EF000F147DA /* AppDelegate.swift */,
+				4A3CE15A2A988C3100F147DA /* IndicatingTabBarController.swift */,
 				4A3CE1402A987EF000F147DA /* SceneDelegate.swift */,
-				4A3CE1422A987EF000F147DA /* ViewController.swift */,
+				4A3CE1602A98998B00F147DA /* Orbitron-Regular.ttf */,
+				4A3CE1582A98861D00F147DA /* Nunito-Bold.ttf */,
+				4A3CE1522A987F6F00F147DA /* TabBarController.swift */,
+				4A3CE1422A987EF000F147DA /* ControllerA.swift */,
+				4A3CE1542A987FB100F147DA /* ControllerB.swift */,
+				4A3CE1562A987FBE00F147DA /* ControllerC.swift */,
+				4A3CE15C2A98960B00F147DA /* ControllerD.swift */,
+				4A3CE15E2A98961800F147DA /* ControllerE.swift */,
 				4A3CE1442A987EF000F147DA /* Main.storyboard */,
 				4A3CE1472A987EF100F147DA /* Assets.xcassets */,
 				4A3CE1492A987EF100F147DA /* LaunchScreen.storyboard */,
@@ -127,6 +151,8 @@
 			files = (
 				4A3CE14B2A987EF100F147DA /* LaunchScreen.storyboard in Resources */,
 				4A3CE1482A987EF100F147DA /* Assets.xcassets in Resources */,
+				4A3CE1612A98998B00F147DA /* Orbitron-Regular.ttf in Resources */,
+				4A3CE1592A98861D00F147DA /* Nunito-Bold.ttf in Resources */,
 				4A3CE1462A987EF000F147DA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +164,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A3CE1432A987EF000F147DA /* ViewController.swift in Sources */,
+				4A3CE1432A987EF000F147DA /* ControllerA.swift in Sources */,
+				4A3CE1532A987F6F00F147DA /* TabBarController.swift in Sources */,
 				4A3CE13F2A987EF000F147DA /* AppDelegate.swift in Sources */,
+				4A3CE15F2A98961800F147DA /* ControllerE.swift in Sources */,
+				4A3CE1572A987FBE00F147DA /* ControllerC.swift in Sources */,
+				4A3CE15D2A98960B00F147DA /* ControllerD.swift in Sources */,
+				4A3CE1552A987FB100F147DA /* ControllerB.swift in Sources */,
+				4A3CE15B2A988C3100F147DA /* IndicatingTabBarController.swift in Sources */,
 				4A3CE1412A987EF000F147DA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
